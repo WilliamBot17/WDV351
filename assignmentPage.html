@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H55TH2EY6V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H55TH2EY6V');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Pics/neonPinkCrown.png" type="image/png">
+
+    <title>Completed Work</title>
+
+<style>
+    .homeButton {
+    position: relative;
+    z-index: 1; /* Ensure button is above the image */
+    padding: 15px 30px;
+    background-color: rgba(100, 148, 237, 0.636);
+    color: lightgray;
+    border: 5px solid rgb(254, 253, 253);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.5s; /* Smooth transition for hover effect */
+    margin-top: 20px; /* Space between image and button */
+}
+
+.homeButton:hover {
+    background-color: rgba(100, 148, 237, 0.224);
+    color: rgba(248, 153, 36, 0.636);
+}
+</style>
+
+<style>
+    h1 {
+        margin: 0;
+        padding: 10px;    
+        font-size: 45px;
+        text-align: center;
+        color: darkorange;
+    }
+
+/* Media queries for different screen sizes */
+@media (max-width: 500px) {
+   .container1 {
+    height:auto;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto 0;
+   }
+
+   h1 {
+        color:deeppink;
+        font-variant-caps: all-petite-caps;
+        font-size: 35px;
+        background-color: rgba(241, 243, 125, 0.342);
+        padding: 5px;
+        width: 90%;
+    }
+     a {
+        font-size: 26px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    li::before {
+        width: 3vw;
+        height: 3vw;
+        border: 0.3vw solid cornflowerblue;
+        left: -20px;
+    }
+
+    .homeButton {
+        font-size: 3vw;
+        padding: 10px 20px;
+    }
+
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    h1 { 
+        color:deeppink;
+    }
+     a {
+        font-size: 26px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    li::before {
+        width: 3vw;
+        height: 3vw;
+        border: 0.3vw solid cornflowerblue;
+        left: -20px;
+    }
+
+    .homeButton {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+
+     .container1 {
+                height:auto;
+                width: 100%;
+                padding: 10px;
+                margin: 10px auto 0; /* Adjust top margin for smaller screens */
+            }
+
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    h1 {
+        color:forestgreen;
+    }
+
+    a {
+        font-size: 26px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    li::before {
+        width: 3vw;
+        height: 3vw;
+        border: 0.3vw solid cornflowerblue;
+        left: -20px;
+    }
+
+    .homeButton {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+   
+}
+</style>
+
+<style>
+     body {
+        background-color: lightblue;
+        margin: 0;
+        padding: 0;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        flex-direction:column;
+        position:relative;
+        min-height: 100vh;
+        width: 100vw;
+        }
+
+       .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 60px auto 0;
+        padding: 20px;
+        z-index: 1;
+        position: relative;
+        align-items:center;
+        }
+
+     ul {
+        list-style: none; /* Remove default list item markers */
+        padding: 0;
+    }
+
+     li {
+        position: relative; /* Position relative to place the pseudo-element */
+        padding-left: -30px; /* Space for the custom marker */
+        margin-bottom: 10px; /* Space between list items */
+        font-size: 50px; /* Existing styles */
+        text-align: center; /* Existing styles */
+        color: cornsilk; /* Existing styles */
+    }
+
+      li::before {
+        content: ""; /* Empty content for the pseudo-element */
+        position: absolute;
+        left:-20px; /* adjust this to position next to text*/
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        border: 2px solid cornflowerblue; /* Border around the marker */
+        border-radius: 50%; /* Make it circular */
+        background-color: cornsilk; /* Background color of the marker */
+    }             
+
+    footer {
+        position: relative;
+        z-index: 1;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(245,245,245,0.335);
+        margin-top: 20px;
+    }       
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container1">
+    <video class="background-video" autoplay loop muted playsinline>
+        <source src="/Videos/adobeStockmov.mp4" type="video/mp4">
+        <source src="/Videos/adobeStockmovwebm.webm" type="video/webm">
+        <source src="/Videos/adobeStockmovTV.mp4" type="video/mp4">
+        <source src="/Videos/adobeStockmoviphone.mp4" type="video/iphone">
+        <source src="/Videos/adobeStockmovandroid.mp4" type="video/android">
+        <source src="/Videos/adobeStockmovogg.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+
+           <h1> Completed Assignments for WDV351</h1>
+
+            <ul>
+                 <li >
+                    <a href="assignment1.html" >Assignment 1</a>
+                </li>
+                <li>
+                    <a href="assignment2-2.html" >Assignment 2-2(YouTube Video)</a>
+                </li>
+                <li>
+                    <a href="assignment2-3.html" >Assignment 2-3(HTML Video)</a>
+                </li>
+            </ul>
+        <button class="homeButton" onclick="window.location.href='https://crabby.info'">Back</button>    
+
+        <footer>
+            <p>
+            Another Crabb Design &copy;2024 </p>
+        </footer>
+    </div>
+</body>
+</html>

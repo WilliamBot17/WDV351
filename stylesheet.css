@@ -1,0 +1,36 @@
+h1 {
+    color: lightskyblue;
+    text-shadow: 4px 1px 1px aliceblue;
+    padding:40px;    
+}
+
+body {
+    background-color: #38482b;
+    background-image: url("/Pics/creekview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure body takes full viewport height */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7ac23f78;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px; /* Space between h1 and container */
+    border-radius: 10px;
+}
+
+li {
+    color: rgba(245, 245, 245, 0.705)
+}

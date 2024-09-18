@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H55TH2EY6V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H55TH2EY6V');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta video src="/Videos/video2.3.mp4" type="video/mp4">
+    <meta video src="/Videos/video2.3webm.webm" type="video/webm">
+    <meta video src="/Videos/video2.3gpp" type="video/gpp">
+    <meta video src="/Videos/video2.3ts.ts" type="video/ts">
+    <meta video src="/Videos/video2.3m4.mp4" type="video/mp4">
+    <meta video src="/Videos/video2.3ogg.ogg" type="video/ogg">
+    <meta video src="/Videos/video2.3tv.mp4" type="video/mp4"> 
+    <link rel="icon" href="/Pics/neonPinkCrown.png" type="image/png">
+    <title>Assignment2-3</title>
+    <style>
+        /* Media queries for different screen sizes */
+@media (max-width: 499px) {
+      h1 {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    li {
+        font-size: 3vw;
+    }
+
+    li::before {
+        width: 3vw;
+        height: 3vw;
+        border: 0.3vw solid cornflowerblue;
+        left: -3vw;
+    }
+
+    .homeButton {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+
+    body {
+        background-color: black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        position:relative;
+    }
+
+    p {
+        color:rgb(229, 28, 255);
+    }
+
+    video {
+        width: 420px;
+        height: 240px;
+    }
+
+    
+}
+    </style>
+</head>
+<style>
+    body {
+        color:rgb(255, 153, 28);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        position:relative;
+    }
+    .homeButton {
+    position: relative;
+    z-index: 1; /* Ensure button is above the image */
+    padding: 15px 30px;
+    background-color: rgb(34, 51, 51);
+    color: lightgray;
+    border: 5px solid rgb(254, 253, 253);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.5s; /* Smooth transition for hover effect */
+    margin-top: 20px; /* Space between image and button */
+}
+
+.homeButton:hover {
+    background-color: rgba(252, 250, 251, 0.476);
+    color: rgba(248, 153, 36, 0.636);
+}
+</style>
+
+<body>
+    <script src="/Assignments/js/index2_3.js"></script>
+    <p>HTML5 Video!</p>
+    <video width="720" height="640" controls autoplay audio muted="true">
+        <source src="/Videos/video2.3.mp4" type="video/mp4">
+        <source src="/Videos/video2.3webm.webm" type="video/webm">
+        <source src="/Videos/video2.3gpp" type="video/gpp">
+        <source src="/Videos/video2.3ts.ts" type="video/ts">
+        <source src="/Videos/video2.3m4.mp4" type="video/mp4">
+        <source src="/Videos/video2.3ogg.ogg" type="video/ogg">
+        <source src="/Videos/video2.3tv.mp4" type="video/mp4">
+
+       
+        Your browser does not support the video tag.
+      </video>
+      
+    <button class="homeButton" onclick="window.location.href='assignmentPage.html'">Back</button>
+    
+</body>
+</html>

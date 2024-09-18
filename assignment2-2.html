@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H55TH2EY6V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H55TH2EY6V');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Pics/neonPinkCrown.png" type="image/png">
+    <title>Assignment2-2</title>
+    <style>
+        /* Media queries for different screen sizes */
+@media (max-width: 499px) {
+      h1 {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    li {
+        font-size: 3vw;
+    }
+
+    li::before {
+        width: 3vw;
+        height: 3vw;
+        border: 0.3vw solid cornflowerblue;
+        left: -3vw;
+    }
+
+    .homeButton {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+
+    body {
+        background-color: black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        position:relative;
+    }
+
+    p {
+        color:rgb(229, 28, 255);
+    }
+
+    iframe {
+        width: 420px;
+        height: 240px;
+    }
+
+    
+}
+    </style>
+</head>
+<style>
+    body {
+        background-color: rgba(0, 0, 0, 0.614);
+        color:rgb(255, 153, 28);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        position:relative;
+    }
+    .homeButton {
+    position: relative;
+    z-index: 1; /* Ensure button is above the image */
+    padding: 15px 30px;
+    background-color: rgb(34, 51, 51);
+    color: lightgray;
+    border: 5px solid rgb(254, 253, 253);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.5s; /* Smooth transition for hover effect */
+    margin-top: 20px; /* Space between image and button */
+}
+
+.homeButton:hover {
+    background-color: rgba(252, 250, 251, 0.476);
+    color: rgba(248, 153, 36, 0.636);
+}
+</style>
+<body>
+    <p>YouTube Video!</p>
+    <iframe width="760" height="615" src="https://www.youtube.com/embed/KB2hC8yPdgk?si=8ycmmcS7AEDw_bng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <button class="homeButton" onclick="window.location.href='assignmentPage.html'">Back</button>
+    
+</body>
+</html>
